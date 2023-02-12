@@ -23,6 +23,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -87,7 +90,7 @@ p {
   margin: 100px 0;
 }
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 nav {
   padding: 20px 0;
@@ -112,6 +115,38 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -124,11 +159,17 @@ nav li.active a {
     font-size: 44px;
     text-align: center;
   }
+  h4 {
+    font-size: 26px;
+  }
   p {
     text-align: center;
   }
   .content {
     text-align: center;
     padding: 0;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
