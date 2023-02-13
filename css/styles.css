@@ -65,6 +65,7 @@ p {
 }
 .photo-of-me {
   width: 600px;
+  margin: 0 auto;
 }
 .btn-branding {
   background-color: var(--branding-color);
