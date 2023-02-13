@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="MyCV" content="Professional-summary" />
+    <meta name="MyCV" content="This is a professional summary about my self and all the projects I've been working on since I've been studying developing" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,26 +18,25 @@
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://kit.fontawesome.com/4c8909623c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://kit.fontawesome.com/4c8909623c.css" crossorigin="anonymous">
     <title>Portfolio</title>
   </head>
   <body>
     <div class="container">
     <nav class="d-flex justify-content-between">
-      <img src="images/SheCodesLogo.png" alt="" class="logo d-none d-md-block"/>
-      <img src="images/SheCodesLogo2.jpeg" alt="" class="logo d-block d-md-none">
+      <img src="images/SheCodesLogo.png" alt="SheCodes logo and wording" class="logo d-none d-md-block"/>
+      <img src="images/SheCodesLogo2.jpeg" alt="SheCodes logo" class="logo d-block d-md-none">
       <ul>
         <li class="active">
-          <a href="/">Home</a>
+          <a href="/" title="Home page">Home</a>
         </li>
         <li>
-          <a href="/about.html">About</a>
+          <a href="/about.html" title="About myself">About</a>
         </li>
         <li>
-          <a href="/work.html">Work</a>
+          <a href="/work.html" title="My projects">Work</a>
         </li>
         <li>
-          <a href="/contact.html">Contact</a>
+          <a href="/contact.html " title="How you can contact me">Contact</a>
         </li>
       </ul>
     </nav>
@@ -47,18 +46,18 @@
       <h1>Daniela Herrera</h1>
       <h2 class="mb-5 text-muted">Front End Developer, based in Colombia.</h2>
       <div>
-        <a href="#" class="btn btn-branding"> Get Started </a>
+        <a href="#container" class="btn btn-branding"> Get Started </a>
       </div>
     </div>
     <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
+      Featured Projects organized and created in SheCodes
     </p>
-    <div class="container">
+    <div class="container" id="container">
       <div class="container-project row mb-5">
         <div class="col my-6 d-none d-md-block">
           <img
             src="images/TravelingSite.png"
-            alt=""
+            alt="Traveling site preview"
             class="fluid"
             width="600px"
           />
@@ -71,7 +70,7 @@
             people can check the most exciting places to know in all of the
             continents (HTML and CSS).
           </p>
-          <a href="#" class="btn btn-branding-outline mt-4"> Learn more</a>
+          <a href="https://www.shecodes.io/workshops/shecodes-basics-3dc02b57-7a59-44fd-ac6b-1101ed309bcf/projects/1094287" class="btn btn-branding-outline mt-4"> Learn more</a>
           </div>
         </div>
         <div class="container-project row mb-5">
@@ -81,12 +80,12 @@
           <p class="mb-4 text-muted">
            This was my second project where I created a Weather App where users can check the weather conditions around the world (HTML, CSS and JavaScript).
           </p>
-          <a href="#" class="btn btn-branding-outline mt-4"> Learn more</a>
+          <a href="https://www.shecodes.io/workshops/shecodes-plus-ba187345-7964-4eb6-a662-b7b329653931/projects/1215017" class="btn btn-branding-outline mt-4"> Learn more</a>
           </div>
            <div class="col my-6 d-none d-md-block">
           <img
             src="images/WeatherApp.png"
-            alt=""
+            alt="Weather project preview"
             class="fluid"
             width="600px"
           />
@@ -94,28 +93,25 @@
         </div>
       </div>
     <footer>
-      <div class="contact-box d-flex justify-content-between mb-5">
-        <div>
-        <h4>
-          Work Inquiry
-        </h4>
-        <p class="text-muted">Let's work together</p>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3" title="you can contact me via email"> Contact me </a>
+          </div>
         </div>
-        <div>
-        <a href="" class="btn btn-branding"> Let's talk here</a>
+      <div class="d-flex justify-content-center mb-4">
+        <a href="mailto:dani456ni@gmail.com" class="email-link" title="Email me">dani456ni@gmail.com</a>
         </div>
-      </div>
-      <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:dani456ni@gmail.com" class="email-link mb-5">dani456ni@gmail.com</a>
-        </div>
-        <div class="social-links d-flex justify-content-center mb-5">
-        <a href="https://instagram.com/daniherrerag95?igshid=NTdlMDg3MTY=" target="blank"><i class="fa-brands fa-instagram"></i>
+        <div class="social-links d-flex justify-content-center">
+        <a href="https://instagram.com/daniherrerag95?igshid=NTdlMDg3MTY=" target="blank" title="My instagram icon and profile"><i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://github.com/dani456ni/portfolio" target="blank"> <i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/dani456ni/portfolio" target="blank" title="My Github profile and icon"> <i class="fa-brands fa-github"></i></a>
         <a href="mailto:dani456ni@gmail.com"><i class="fa-solid fa-envelope"></i></a>
       </div>
       </footer>
     </div>
-    
   </body>
 </html>

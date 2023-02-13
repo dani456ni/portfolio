@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="MyCV" content="Professional-summary" />
+    <meta
+      name="MyCV"
+      content="Encouraging other women to get into this course"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,10 +19,43 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/4c8909623c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/styles.css" />
+
     <title>Portfolio</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/SheCodesLogo.png"
+          alt="SheCodes logo"
+          class="logo d-none d-md-block"
+        />
+        <img
+          src="images/SheCodesLogo2.jpeg"
+          alt="SheCodes logo"
+          class="logo d-block d-md-none"
+        />
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -36,9 +72,47 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/PhotoOfMe.jpg" alt="" class="photo-of-me" />
+          <img
+            src="images/PhotoOfMe.jpg"
+            alt="A photo of myself"
+            class="photo-of-me"
+          />
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="" class="btn btn-branding mt-3"> Contact me </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-4">
+        <a href="mailto:dani456ni@gmail.com" class="email-link"
+          >dani456ni@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://instagram.com/daniherrerag95?igshid=NTdlMDg3MTY="
+          target="blank"
+          title="My instagram profile"
+          ><i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://github.com/dani456ni/portfolio"
+          target="blank"
+          title="My Github code"
+        >
+          <i class="fa-brands fa-github"></i
+        ></a>
+        <a href="mailto:dani456ni@gmail.com" title="Email me"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
