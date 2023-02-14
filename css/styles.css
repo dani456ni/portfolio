@@ -174,3 +174,10 @@ footer .contact-box p {
     padding: 0;
   }
 }
+@media (max-width: 992px) {
+  footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 50px 150px;
+    border-radius: 20px;
+  }
+}
